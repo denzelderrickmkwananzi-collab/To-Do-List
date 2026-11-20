@@ -4,7 +4,7 @@ A modern, responsive, three-card productivity and to-do list web application bui
 
 ---
 
-## 📖 What the Project Does
+## What the Project Does
 
 The **Today Task Dashboard** provides an intuitive workspace for planning and tracking daily tasks:
 
@@ -17,7 +17,7 @@ The **Today Task Dashboard** provides an intuitive workspace for planning and tr
 
 ---
 
-## ✨ Why This Project Is Useful
+## Why This Project Is Useful
 
 * **Zero Dependencies:** Runs natively in any modern web browser with no build tools, package managers, or server configuration required.
 * **Lightweight & Fast:** Built strictly with semantic HTML, modular CSS variables, and clean vanilla JavaScript.
@@ -26,7 +26,7 @@ The **Today Task Dashboard** provides an intuitive workspace for planning and tr
 
 ---
 
-## 🚀 How to Get Started
+## How to Get Started
 
 ### Prerequisites
 You only need a modern web browser (e.g., Chrome, Edge, Firefox, Safari) and a code editor such as [VS Code](https://visualstudio.com).
@@ -42,7 +42,7 @@ You only need a modern web browser (e.g., Chrome, Edge, Firefox, Safari) and a c
 
 ---
 
-## 🆘 Where to Get Help
+## Where to Get Help
 
 If you run into issues, find a bug, or want to request a feature:
 
@@ -51,7 +51,7 @@ If you run into issues, find a bug, or want to request a feature:
 
 ---
 
-## 👨‍💻 Maintainer & Contributing
+## Maintainer & Contributing
 
 * **Maintainer:** **Denzel Derrick Mkwananzi** — Junior Full-Stack Developer
 

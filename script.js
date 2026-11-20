@@ -59,7 +59,6 @@ function renderTasks() {
       </div>
     `;
 
-    // Toggle completion
     const checkbox = li.querySelector('.custom-checkbox');
     checkbox.addEventListener('change', () => {
       task.completed = checkbox.checked;
@@ -67,7 +66,6 @@ function renderTasks() {
       renderTasks();
     });
 
-    // Change priority badge
     const select = li.querySelector('.priority-select');
     select.addEventListener('change', (e) => {
       task.priority = e.target.value;
@@ -75,7 +73,6 @@ function renderTasks() {
       renderTasks();
     });
 
-    // Delete task
     const deleteBtn = li.querySelector('.delete-btn');
     deleteBtn.addEventListener('click', () => {
       tasks = tasks.filter((t) => t.id !== task.id);
@@ -93,7 +90,6 @@ function escapeHTML(str) {
   return div.innerHTML;
 }
 
-// Show/hide inline Add Task form
 toggleAddBtn.addEventListener('click', () => {
   addTaskForm.classList.remove('hidden');
   newTaskInput.focus();
@@ -104,7 +100,6 @@ cancelAddBtn.addEventListener('click', () => {
   addTaskForm.reset();
 });
 
-// Add new task
 addTaskForm.addEventListener('submit', (e) => {
   e.preventDefault();
   const title = newTaskInput.value.trim();
@@ -123,13 +118,11 @@ addTaskForm.addEventListener('submit', (e) => {
   addTaskForm.classList.add('hidden');
 });
 
-// Toggle Focus Mode
 focusModeBtn.addEventListener('click', () => {
   document.body.classList.toggle('focus-active');
   focusModeBtn.classList.toggle('active');
 });
 
-// AI Assist adds a suggested design task
 aiAssistBtn.addEventListener('click', () => {
   const randomTask = AI_SUGGESTIONS[Math.floor(Math.random() * AI_SUGGESTIONS.length)];
   tasks.push({
@@ -142,7 +135,6 @@ aiAssistBtn.addEventListener('click', () => {
   renderTasks();
 });
 
-// Finish updates the middle card metrics based on completed tasks
 finishBtn.addEventListener('click', () => {
   const completedCount = tasks.filter((t) => t.completed).length;
   const score = completedCount > 0 ? Math.min(100, completedCount * 32) : 0;
@@ -150,5 +142,4 @@ finishBtn.addEventListener('click', () => {
   sessionLengthEl.textContent = `${Math.max(25, completedCount * 25)} mins`;
 });
 
-// Initial render
 renderTasks();
