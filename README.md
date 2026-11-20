@@ -32,7 +32,7 @@ The **Today Task Dashboard** provides an intuitive workspace for planning and tr
 You only need a modern web browser (e.g., Chrome, Edge, Firefox, Safari) and a code editor such as [VS Code](https://visualstudio.com).
 
 
-## 🛠️ Usage Guide
+## Usage Guide
 
 1. **Add a Task:** Click the **`+ Add Task`** button at the bottom of the task card, enter your task description, choose a priority level, and click **Save**.
 2. **Update Priority:** Use the inline pill dropdown (`High`, `Medium`, `Low`) on the right side of any task row to adjust urgency.

@@ -36,6 +36,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 18px;
+  padding-top: 90px;
 }
 
 .card {
@@ -45,7 +46,6 @@ body {
   box-shadow: 0 2px 10px rgba(16, 24, 40, 0.03);
 }
 
-/* --- Top Greeting Card --- */
 .greeting-card {
   display: flex;
   justify-content: space-between;
@@ -117,7 +117,6 @@ body {
   border-radius: 6px;
 }
 
-/* --- Middle Profile Card --- */
 .profile-card {
   display: flex;
   align-items: center;
@@ -207,7 +206,6 @@ body {
   font-weight: 600;
 }
 
-/* --- Bottom Today Task Card --- */
 .task-header {
   display: flex;
   justify-content: space-between;
@@ -227,7 +225,6 @@ body {
   gap: 10px;
 }
 
-/* Buttons */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -297,7 +294,6 @@ body {
   min-width: auto;
 }
 
-/* Inline Add Task Form */
 .add-task-form {
   display: flex;
   gap: 10px;
@@ -336,7 +332,6 @@ body {
   cursor: pointer;
 }
 
-/* Task Rows */
 .task-list {
   list-style: none;
 }
@@ -362,7 +357,6 @@ body {
   cursor: pointer;
 }
 
-/* Custom Indigo Checkbox */
 .custom-checkbox {
   appearance: none;
   -webkit-appearance: none;
@@ -404,7 +398,6 @@ body {
   color: #6b7280;
 }
 
-/* Right Side Controls (Priority Pill + Chevron + Trash) */
 .task-right {
   display: flex;
   align-items: center;
@@ -447,7 +440,6 @@ body {
   display: flex;
 }
 
-/* Priority Color Variants */
 .priority-High .priority-select {
   background-color: #fefce8;
   color: #eab308;
@@ -491,7 +483,6 @@ body {
   background-color: #fef2f2;
 }
 
-/* Footer */
 .task-footer {
   display: flex;
   align-items: center;
@@ -513,7 +504,6 @@ body {
   cursor: help;
 }
 
-/* Focus Mode State */
 body.focus-active .greeting-card,
 body.focus-active .profile-card {
   opacity: 0.35;
